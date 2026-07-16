@@ -1,0 +1,16 @@
+{
+  "name": "mintes-ai-academy",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "build": "wrangler types && node scripts/build.mjs",
+    "typecheck": "tsc --noEmit",
+    "validate": "node scripts/validate.mjs"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3",
+    "wrangler": "^4.111.0"
+  }
+}
