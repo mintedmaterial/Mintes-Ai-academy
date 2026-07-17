@@ -1,8 +1,17 @@
-# Script: I Built an AI Image Lab on Cloudflare Workers AI
+# Director Script: I Built an AI Image Lab on Cloudflare Workers AI
 
 Target length: 8-10 minutes.
 
-Read this naturally. The bracketed lines are production cues, not narration.
+This episode uses the Minte AI Academy two-voice format. Colt owns the human introduction and closing. Cleo owns the complete technical lesson in the middle.
+
+Use these companion files for the exact delivery tracks:
+
+- `script-colt.md`
+- `script-cleo.md`
+- `two-voice-format.md`
+- `recording-plan.md`
+
+The original single-voice wording below is retained as a reference and fallback narration script. The recording plan and companion scripts are the current production source of truth.
 
 ## 00:00 Hook: show the result
 
@@ -62,7 +71,7 @@ The browser sends a POST request to `/api/generate`. The Worker reads the prompt
 
 These checks are deliberately small, but they teach an important habit. Even a demo should have a clear input contract. We do not want the browser sending arbitrary model identifiers or unlimited prompt data into the backend.
 
-Then we call the AI binding with the prompt, model, width, and height. The result is returned as a PNG response.
+Then we call the AI binding with the prompt, model, width, and height. The result is decoded and returned as an image response.
 
 [SLIDE: 05 request flow]
 

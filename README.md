@@ -2,7 +2,7 @@
 
 A public, reproducible lab for Minte.Dev tutorials about Cloudflare, AI systems, and the tools used to build them.
 
-The first lesson is **Minte Image Lab**, a local Cloudflare Workers AI playground used to teach how to build and deploy an image-generation Worker.
+The first lesson is **Minte Image Lab**, a local Cloudflare Workers AI playground used to teach how to build and deploy an image-generation Worker. Episode 001 uses the Minte AI Academy two-voice format: Colt introduces and closes the lesson, while Cleo narrates and drives the verified technical middle.
 
 ## What this repo contains
 
@@ -37,6 +37,9 @@ npm run validate
 - [Brief](episodes/cloudflare/001-workers-ai-image-generator/brief.md)
 - [Research](episodes/cloudflare/001-workers-ai-image-generator/research.md)
 - [Script](episodes/cloudflare/001-workers-ai-image-generator/script.md)
+- [Colt script](episodes/cloudflare/001-workers-ai-image-generator/script-colt.md)
+- [Cleo script](episodes/cloudflare/001-workers-ai-image-generator/script-cleo.md)
+- [Two-voice format](episodes/cloudflare/001-workers-ai-image-generator/two-voice-format.md)
 - [Storyboard](episodes/cloudflare/001-workers-ai-image-generator/storyboard.md)
 - [Recording plan](episodes/cloudflare/001-workers-ai-image-generator/recording-plan.md)
 - [Troubleshooting](episodes/cloudflare/001-workers-ai-image-generator/troubleshooting.md)
