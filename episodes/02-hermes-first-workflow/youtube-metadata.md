@@ -16,6 +16,7 @@ The terminal cards in this episode are privacy-safe visualizations of verified l
 - Source: https://github.com/NousResearch/hermes-agent
 - Episode repo: https://github.com/mintedmaterial/Mintes-Ai-academy/tree/main/episodes/02-hermes-first-workflow
 - Matching article: https://blog.minte.dev/posts/2026-07-20-hermes-agent-first-useful-workflow
+- Canonical YouTube video: https://www.youtube.com/watch?v=AbXtijgGN38
 
 ## Chapters (4:00 master)
 00:00 Why the first workflow matters
