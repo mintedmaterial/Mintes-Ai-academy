@@ -1,0 +1,24 @@
+{
+  "episode": "02-hermes-first-workflow",
+  "artifacts": [
+    {
+      "path": "renders/episode-02-hermes-first-workflow.mp4",
+      "bytes": 6478379,
+      "sha256": "eaf684ee7736738a1b47a253cc9dce84c4cebc37c93b6eac050c00c15e2f289c"
+    },
+    {
+      "path": "renders/thumbnail.jpg",
+      "bytes": 20116,
+      "sha256": "c6c9f952ef6d4377fa90d698ce5578ef2230218ffecbf48d2b0fc658b0ce724e"
+    },
+    {
+      "path": "assets/cleo-narration.mp3",
+      "bytes": 3841088,
+      "sha256": "98e2e9dfecd4f54f8401c6c8da87e6da8f09af5c0148c86e5e0f282c59aafca5"
+    },
+    {
+      "path": "renders/episode-02-hermes-first-workflow.mp4",
+      "duration_seconds": 240.000998
+    }
+  ]
+}

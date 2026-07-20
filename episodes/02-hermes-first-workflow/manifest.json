@@ -1,0 +1,31 @@
+{
+  "episode": "02-hermes-first-workflow",
+  "title": "Your First Useful Hermes Workflow",
+  "version": "1.0.0",
+  "author": "Cleo",
+  "narrator": "Cleo",
+  "live_evidence": "live-proof.md",
+  "primary_sources": [
+    "https://hermes-agent.nousresearch.com/docs/getting-started/quickstart",
+    "https://hermes-agent.nousresearch.com/docs/user-guide/profiles",
+    "https://hermes-agent.nousresearch.com/docs/user-guide/features/cron"
+  ],
+  "scenes": 7,
+  "assets": {
+    "slides": "assets/scenes/",
+    "narration": "assets/cleo-narration.mp3",
+    "thumbnail_source": "assets/thumbnail.svg",
+    "thumbnail_render": "renders/thumbnail.jpg",
+    "master": "renders/episode-02-hermes-first-workflow.mp4"
+  },
+  "publication": {
+    "github_path": "episodes/02-hermes-first-workflow",
+    "blog_slug": "2026-07-20-hermes-agent-first-useful-workflow"
+  },
+  "qa": [
+    "ffprobe validates H.264 video and AAC audio",
+    "full FFmpeg decode passes",
+    "representative frame inspected for legibility",
+    "sha256 recorded in asset-manifest.json"
+  ]
+}
