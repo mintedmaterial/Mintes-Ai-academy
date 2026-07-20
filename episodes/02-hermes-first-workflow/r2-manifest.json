@@ -1,0 +1,209 @@
+{
+  "bucket": "minte-ai-academy-media",
+  "prefix": "episodes/ai-academy/02-hermes-first-workflow/",
+  "visibility": "private",
+  "purpose": "Minte AI Academy Episode 2 production mirror",
+  "object_count": 40,
+  "objects": [
+    {
+      "key": "episodes/ai-academy/02-hermes-first-workflow/manifest/REBUILD-NOTES.md",
+      "bytes": 920,
+      "last_modified": "2026-07-20T17:24:58.838000+00:00"
+    },
+    {
+      "key": "episodes/ai-academy/02-hermes-first-workflow/manifest/asset-manifest.json",
+      "bytes": 932,
+      "last_modified": "2026-07-20T17:24:58.407000+00:00"
+    },
+    {
+      "key": "episodes/ai-academy/02-hermes-first-workflow/manifest/manifest.json",
+      "bytes": 1053,
+      "last_modified": "2026-07-20T17:24:58.023000+00:00"
+    },
+    {
+      "key": "episodes/ai-academy/02-hermes-first-workflow/renders/cleaned/episode-02-hermes-first-workflow-rebuilt.mp4",
+      "bytes": 9788553,
+      "last_modified": "2026-07-20T17:24:46.426000+00:00"
+    },
+    {
+      "key": "episodes/ai-academy/02-hermes-first-workflow/renders/previews/episode-02-hermes-first-workflow-preview.mp4",
+      "bytes": 1845513,
+      "last_modified": "2026-07-20T17:24:52.047000+00:00"
+    },
+    {
+      "key": "episodes/ai-academy/02-hermes-first-workflow/scripts/brief.md",
+      "bytes": 2067,
+      "last_modified": "2026-07-20T17:24:55.949000+00:00"
+    },
+    {
+      "key": "episodes/ai-academy/02-hermes-first-workflow/scripts/build_detailed_scenes.py",
+      "bytes": 10215,
+      "last_modified": "2026-07-20T17:24:59.276000+00:00"
+    },
+    {
+      "key": "episodes/ai-academy/02-hermes-first-workflow/scripts/recording-plan.md",
+      "bytes": 1081,
+      "last_modified": "2026-07-20T17:24:56.739000+00:00"
+    },
+    {
+      "key": "episodes/ai-academy/02-hermes-first-workflow/scripts/research.md",
+      "bytes": 2103,
+      "last_modified": "2026-07-20T17:24:57.153000+00:00"
+    },
+    {
+      "key": "episodes/ai-academy/02-hermes-first-workflow/scripts/script-cleo.md",
+      "bytes": 4638,
+      "last_modified": "2026-07-20T17:24:55.513000+00:00"
+    },
+    {
+      "key": "episodes/ai-academy/02-hermes-first-workflow/scripts/storyboard.md",
+      "bytes": 849,
+      "last_modified": "2026-07-20T17:24:56.338000+00:00"
+    },
+    {
+      "key": "episodes/ai-academy/02-hermes-first-workflow/scripts/youtube-metadata.md",
+      "bytes": 1423,
+      "last_modified": "2026-07-20T17:24:57.609000+00:00"
+    },
+    {
+      "key": "episodes/ai-academy/02-hermes-first-workflow/slides/scenes-detailed/scene-01.svg",
+      "bytes": 4717,
+      "last_modified": "2026-07-20T17:24:52.538000+00:00"
+    },
+    {
+      "key": "episodes/ai-academy/02-hermes-first-workflow/slides/scenes-detailed/scene-02.svg",
+      "bytes": 4559,
+      "last_modified": "2026-07-20T17:24:53.024000+00:00"
+    },
+    {
+      "key": "episodes/ai-academy/02-hermes-first-workflow/slides/scenes-detailed/scene-03.svg",
+      "bytes": 4037,
+      "last_modified": "2026-07-20T17:24:53.450000+00:00"
+    },
+    {
+      "key": "episodes/ai-academy/02-hermes-first-workflow/slides/scenes-detailed/scene-04.svg",
+      "bytes": 4446,
+      "last_modified": "2026-07-20T17:24:53.906000+00:00"
+    },
+    {
+      "key": "episodes/ai-academy/02-hermes-first-workflow/slides/scenes-detailed/scene-05.svg",
+      "bytes": 4337,
+      "last_modified": "2026-07-20T17:24:54.319000+00:00"
+    },
+    {
+      "key": "episodes/ai-academy/02-hermes-first-workflow/slides/scenes-detailed/scene-06.svg",
+      "bytes": 3755,
+      "last_modified": "2026-07-20T17:24:54.705000+00:00"
+    },
+    {
+      "key": "episodes/ai-academy/02-hermes-first-workflow/slides/scenes-detailed/scene-07.svg",
+      "bytes": 4129,
+      "last_modified": "2026-07-20T17:24:55.102000+00:00"
+    },
+    {
+      "key": "episodes/ai-academy/02-hermes-first-workflow/source/assets/cleo-narration.mp3",
+      "bytes": 3841088,
+      "last_modified": "2026-07-20T17:26:15.609000+00:00"
+    },
+    {
+      "key": "episodes/ai-academy/02-hermes-first-workflow/source/assets/scenes/scene-01.svg",
+      "bytes": 866,
+      "last_modified": "2026-07-20T17:26:05.770000+00:00"
+    },
+    {
+      "key": "episodes/ai-academy/02-hermes-first-workflow/source/assets/scenes/scene-02.svg",
+      "bytes": 1271,
+      "last_modified": "2026-07-20T17:26:06.188000+00:00"
+    },
+    {
+      "key": "episodes/ai-academy/02-hermes-first-workflow/source/assets/scenes/scene-03.svg",
+      "bytes": 847,
+      "last_modified": "2026-07-20T17:26:06.681000+00:00"
+    },
+    {
+      "key": "episodes/ai-academy/02-hermes-first-workflow/source/assets/scenes/scene-04.svg",
+      "bytes": 862,
+      "last_modified": "2026-07-20T17:26:07.099000+00:00"
+    },
+    {
+      "key": "episodes/ai-academy/02-hermes-first-workflow/source/assets/scenes/scene-05.svg",
+      "bytes": 1437,
+      "last_modified": "2026-07-20T17:26:07.832000+00:00"
+    },
+    {
+      "key": "episodes/ai-academy/02-hermes-first-workflow/source/assets/scenes/scene-06.svg",
+      "bytes": 1111,
+      "last_modified": "2026-07-20T17:26:08.419000+00:00"
+    },
+    {
+      "key": "episodes/ai-academy/02-hermes-first-workflow/source/assets/scenes/scene-07.svg",
+      "bytes": 845,
+      "last_modified": "2026-07-20T17:26:09.158000+00:00"
+    },
+    {
+      "key": "episodes/ai-academy/02-hermes-first-workflow/source/assets/thumbnail.svg",
+      "bytes": 805,
+      "last_modified": "2026-07-20T17:26:16.002000+00:00"
+    },
+    {
+      "key": "episodes/ai-academy/02-hermes-first-workflow/source/raw/concat.txt",
+      "bytes": 147,
+      "last_modified": "2026-07-20T17:26:16.414000+00:00"
+    },
+    {
+      "key": "episodes/ai-academy/02-hermes-first-workflow/source/raw/scene-01.mp4",
+      "bytes": 211289,
+      "last_modified": "2026-07-20T17:26:17.353000+00:00"
+    },
+    {
+      "key": "episodes/ai-academy/02-hermes-first-workflow/source/raw/scene-02.mp4",
+      "bytes": 184916,
+      "last_modified": "2026-07-20T17:26:18.098000+00:00"
+    },
+    {
+      "key": "episodes/ai-academy/02-hermes-first-workflow/source/raw/scene-03.mp4",
+      "bytes": 201392,
+      "last_modified": "2026-07-20T17:26:18.776000+00:00"
+    },
+    {
+      "key": "episodes/ai-academy/02-hermes-first-workflow/source/raw/scene-04.mp4",
+      "bytes": 221373,
+      "last_modified": "2026-07-20T17:26:19.595000+00:00"
+    },
+    {
+      "key": "episodes/ai-academy/02-hermes-first-workflow/source/raw/scene-05.mp4",
+      "bytes": 208722,
+      "last_modified": "2026-07-20T17:26:20.411000+00:00"
+    },
+    {
+      "key": "episodes/ai-academy/02-hermes-first-workflow/source/raw/scene-06.mp4",
+      "bytes": 269539,
+      "last_modified": "2026-07-20T17:26:21.159000+00:00"
+    },
+    {
+      "key": "episodes/ai-academy/02-hermes-first-workflow/source/raw/scene-07.mp4",
+      "bytes": 260383,
+      "last_modified": "2026-07-20T17:26:21.934000+00:00"
+    },
+    {
+      "key": "episodes/ai-academy/02-hermes-first-workflow/source/renders/episode-02-hermes-first-workflow.mp4",
+      "bytes": 6615651,
+      "last_modified": "2026-07-20T17:26:33.750000+00:00"
+    },
+    {
+      "key": "episodes/ai-academy/02-hermes-first-workflow/source/renders/frame-10.jpg",
+      "bytes": 39347,
+      "last_modified": "2026-07-20T17:26:37.369000+00:00"
+    },
+    {
+      "key": "episodes/ai-academy/02-hermes-first-workflow/source/renders/visuals.mp4",
+      "bytes": 1553827,
+      "last_modified": "2026-07-20T17:26:37.006000+00:00"
+    },
+    {
+      "key": "episodes/ai-academy/02-hermes-first-workflow/thumbnail/thumbnail.jpg",
+      "bytes": 20116,
+      "last_modified": "2026-07-20T17:24:59.671000+00:00"
+    }
+  ]
+}
