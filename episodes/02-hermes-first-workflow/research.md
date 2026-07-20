@@ -4,7 +4,7 @@
 - Quickstart: https://hermes-agent.nousresearch.com/docs/getting-started/quickstart
 - Profiles: https://hermes-agent.nousresearch.com/docs/user-guide/profiles
 - Cron: https://hermes-agent.nousresearch.com/docs/user-guide/features/cron
-- Working with skills: https://hermes-agent.nousresearch.com/docs/guides/work-with-skills
+- Working with skills: https://hermes-agent.nousresearch.com/docs/user-guide/features/skills
 - Source repository: https://github.com/NousResearch/hermes-agent
 
 ## Verified current local evidence

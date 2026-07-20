@@ -8,7 +8,7 @@ Install Hermes Agent, verify a real chat, add reusable skills, isolate work with
 
 Official docs:
 - Quickstart: https://hermes-agent.nousresearch.com/docs/getting-started/quickstart
-- Working with skills: https://hermes-agent.nousresearch.com/docs/guides/work-with-skills
+- Working with skills: https://hermes-agent.nousresearch.com/docs/user-guide/features/skills
 - Profiles: https://hermes-agent.nousresearch.com/docs/user-guide/profiles
 - Cron: https://hermes-agent.nousresearch.com/docs/user-guide/features/cron
 
