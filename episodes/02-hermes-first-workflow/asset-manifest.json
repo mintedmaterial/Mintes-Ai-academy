@@ -19,6 +19,12 @@
     {
       "path": "renders/episode-02-hermes-first-workflow.mp4",
       "duration_seconds": 240.000998
+    },
+    {
+      "path": "renders/episode-02-hermes-first-workflow-rebuilt.mp4",
+      "bytes": 9788553,
+      "sha256": "da6f0453c52a671487a9d59cc60767594b4895af05d4928bd64393610f21d16d",
+      "duration_seconds": 240.0
     }
   ]
 }
