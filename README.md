@@ -14,7 +14,7 @@ The first lesson is **Minte Image Lab**, a local Cloudflare Workers AI playgroun
 
 ## Run the first lab
 
-Prerequisites: Node.js 20+, npm, Wrangler, and a Cloudflare account with Workers AI enabled.
+Prerequisites: Node.js 22+, npm, Wrangler, and a Cloudflare account with Workers AI enabled.
 
 ```bash
 npm install

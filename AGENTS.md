@@ -19,3 +19,5 @@ npm run build
 npm run typecheck
 npm run validate
 ```
+
+Use Node.js 22 or newer. The current Wrangler dependency requires Node.js 22.
