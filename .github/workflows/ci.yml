@@ -14,7 +14,7 @@ concurrency:
 
 jobs:
   validate:
-    name: Build, typecheck, and validate
+    name: Build, typecheck, validate, and audit
     runs-on: ubuntu-latest
     timeout-minutes: 15
 
@@ -40,5 +40,24 @@ jobs:
       - name: Validate
         run: npm run validate
 
+      - name: Export pull request body
+        if: github.event_name == 'pull_request'
+        env:
+          GITHUB_EVENT_PATH: ${{ github.event_path }}
+        run: node scripts/validate-pr-contract.mjs
+
       - name: Dependency audit (informational)
-        run: npm audit --omit=optional --audit-level=high || true
+        shell: bash
+        run: |
+          set +e
+          npm audit --omit=optional --audit-level=high --json > audit-report.json
+          audit_status=$?
+          set -e
+          if [ ! -s audit-report.json ]; then
+            echo "npm audit produced no report; treating this as an execution failure"
+            exit 1
+          fi
+          node -e 'const fs=require("fs"); const d=JSON.parse(fs.readFileSync("audit-report.json", "utf8")); if (!d.metadata || !d.metadata.vulnerabilities) { console.error("npm audit report is not a vulnerability report"); process.exit(1); } console.log(JSON.stringify(d.metadata.vulnerabilities));'
+          if [ "$audit_status" -ne 0 ]; then
+            echo "npm audit reported findings; see issue #4. The audit is informational for this pilot."
+          fi
