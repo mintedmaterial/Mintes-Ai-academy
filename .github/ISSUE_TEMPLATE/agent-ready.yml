@@ -2,7 +2,7 @@ name: Agent-ready work
 description: A bounded implementation task with deterministic acceptance criteria
 title: ""
 labels:
-  - enhancement
+  - agent-ready
 body:
   - type: markdown
     attributes:
