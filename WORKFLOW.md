@@ -65,4 +65,6 @@ npm run typecheck
 npm run validate
 ```
 
+The supported runtime is Node.js 22 or newer. CI also reports the current npm audit state as informational. Existing development-tooling advisories are tracked in GitHub and must not be hidden or replaced with an unreviewed breaking downgrade.
+
 If a check cannot run, record the exact command, failure, and blocker. Do not replace missing execution with an assumed result.

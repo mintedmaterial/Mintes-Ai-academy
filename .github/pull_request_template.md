@@ -4,7 +4,7 @@
 
 ## Issue
 
-<!-- Link the issue, for example: Closes #2 -->
+<!-- Link the approved issue, for example: Closes #2 -->
 
 ## Scope and non-goals
 
@@ -28,11 +28,20 @@ Commands and results:
 
 - Repository:
 - Base branch:
+- Base commit:
 - Head branch:
 - Commit:
+- Implementer/owner:
+- Runtime profile/lane:
+- Absolute workspace/worktree path:
+- Started at (UTC):
 - Changed files:
 - Runtime/preview URL, if applicable:
 - Documentation artifact:
+- Exact CI run URL and commit:
+- Reviewer identity and outcome:
+- Independent verification result:
+- Recovery/next-action owner, if blocked:
 
 ## Risks and deployment status
 
@@ -46,3 +55,4 @@ Commands and results:
 - [ ] No secrets, private URLs, account IDs, or internal infrastructure details were added.
 - [ ] The diff is limited to the stated scope.
 - [ ] Reviewer findings are addressed or explicitly documented.
+- [ ] The PR references an approved GitHub issue (for example, `Closes #123`).

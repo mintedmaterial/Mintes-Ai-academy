@@ -8,6 +8,37 @@ body:
     attributes:
       value: |
         Use this template only for bounded work that has a clear owner, acceptance criteria, and validation path.
+  - type: input
+    id: owner
+    attributes:
+      label: Accountable owner
+      description: Name the implementation owner or profile. This is distinct from the requested execution lane.
+      placeholder: locdev, dev, or a named human owner
+    validations:
+      required: true
+  - type: input
+    id: repository
+    attributes:
+      label: Repository
+      description: Full owner/repository name.
+      placeholder: mintedmaterial/Mintes-Ai-academy
+    validations:
+      required: true
+  - type: input
+    id: base
+    attributes:
+      label: Base branch and commit
+      description: Record the branch and starting commit before implementation.
+      placeholder: main @ <commit-sha>
+    validations:
+      required: true
+  - type: input
+    id: proposed-branch
+    attributes:
+      label: Proposed implementation branch
+      placeholder: locdev/<issue-slug> or dev/<issue-slug>
+    validations:
+      required: true
   - type: textarea
     id: scope
     attributes:
@@ -44,5 +75,13 @@ body:
     id: risks
     attributes:
       label: Risks and non-goals
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Required evidence artifact
+      description: State where the workpad, test output, preview evidence, and final handoff will be recorded.
+      placeholder: PR body, issue workpad, or repository path
     validations:
       required: true
